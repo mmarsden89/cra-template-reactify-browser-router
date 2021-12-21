@@ -5,7 +5,8 @@
   -webkit-user-select: none;
 
   .hero-image {
-    margin-top: -15%;
+    // margin-top: -15%;
+    object-fit: fill;
     width: 100%;
   }
 
