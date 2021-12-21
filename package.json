@@ -2,6 +2,7 @@
   "name": "cra-template-reactify-browser-router",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mmarsden89.github.io/cra-template-reactify-browser-router",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
