@@ -1,8 +1,5 @@
 import "./Hero.scss";
-import hero from "../../assets/hero.jpg";
-import camera from "../../assets/camera.jpg";
 import ImageCycle from "./ImageCycle";
-import React, { useState, useEffect } from "react";
 
 const Hero = () => {
   return (
