@@ -1,0 +1,39 @@
+.navbar-container {
+  margin-top: 15px;
+  position: absolute;
+  width: 100vw;
+
+  // flex
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    padding-left: 25px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 0 25px;
+    width: 20vw;
+
+    .nav-link {
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.5s;
+    }
+
+    .active {
+      color: black;
+      font-weight: 700;
+    }
+  }
+}

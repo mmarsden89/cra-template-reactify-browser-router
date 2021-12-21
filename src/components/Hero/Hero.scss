@@ -1,0 +1,40 @@
+.hero-container {
+  height: 100%;
+  overflow: hidden;
+  width: 100vw;
+  -webkit-user-select: none;
+
+  .hero-image {
+    margin-top: -15%;
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  h1 {
+    color: white;
+    font-size: 50px;
+    margin-right: 25px;
+    position: absolute;
+    right: 0;
+    top: 82.5%;
+  }
+
+  .subtext {
+    margin-right: 25px;
+    position: absolute;
+    right: 0;
+    top: 91%;
+    white-space: nowrap;
+
+    p {
+      color: white;
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+  }
+}
