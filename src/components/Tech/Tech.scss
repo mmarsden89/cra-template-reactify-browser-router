@@ -1,12 +1,14 @@
+@import "../../styles/colors";
+
 .tech-container {
-  background-color: rgb(93, 152, 160);
+  background-color: $teal;
   height: 100vh;
   overflow-y: hidden;
   position: relative;
   width: 100vw;
 
   svg {
-    background-color: white;
+    background-color: $white;
     left: 0;
     margin-top: -25px;
     position: absolute;
@@ -14,7 +16,7 @@
   }
 
   h1 {
-    color: white;
+    color: $white;
     font-size: 3.75vw;
     left: 90px;
     position: absolute;

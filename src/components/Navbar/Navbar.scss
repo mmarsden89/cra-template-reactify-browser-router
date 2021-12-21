@@ -1,3 +1,5 @@
+@import "../../styles/colors";
+
 .navbar-container {
   margin-top: 15px;
   position: absolute;
@@ -13,7 +15,7 @@
   h1 {
     font-size: 2.6vw;
     font-weight: 800;
-    color: white;
+    color: $white;
     padding-left: 25px;
   }
 
@@ -26,7 +28,7 @@
     width: 20vw;
 
     .nav-link {
-      color: white;
+      color: $white;
       cursor: pointer;
       font-size: 1.25vw;
       text-decoration: none;
@@ -34,7 +36,7 @@
     }
 
     .active {
-      color: orange;
+      color: $orange;
       font-weight: 700;
     }
   }
