@@ -1,26 +1,23 @@
 import React, { useState, useEffect } from "react";
 import hero from "../../assets/hero.jpg";
 import camera from "../../assets/camera.jpg";
+import car from "../../assets/car.jpg";
 
 const ImageCycle = () => {
   const [idx, setIdx] = useState(0);
-  const images = [hero, camera];
-
-  const increment = () => {
-    console.log(idx);
-    let newIdx = idx;
-    if (idx < images.length - 1) {
-      newIdx++;
-      setIdx((prevIdx) => prevIdx + 1);
-    } else {
-      setIdx(0);
-    }
-    return idx;
-  };
-  let num = 0;
+  const images = [hero, camera, car];
 
   useEffect(() => {
-    setInterval(increment, 5000);
+    const timer = setTimeout(() => {
+      if (idx < images.length - 1) {
+        setIdx(idx + 1);
+      } else {
+        setIdx(0);
+      }
+    }, 7000);
+    return () => {
+      clearTimeout(timer);
+    };
   }, [idx]);
 
   return (

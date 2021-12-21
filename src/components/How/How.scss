@@ -1,0 +1,55 @@
+.how-container {
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+
+  .how-background {
+    margin-top: -25px;
+    width: 100%;
+  }
+
+  .box {
+    height: 70vh;
+    width: 40vw;
+    background-color: orange;
+    position: absolute;
+    top: 17.5%;
+    left: 10%;
+
+    h1 {
+      margin: 25px 0 0 25px;
+    }
+
+    .how-text {
+      font-size: 20px !important;
+      font-weight: 300 !important;
+      padding: 0 35px;
+      letter-spacing: 1px;
+      margin-top: 50px;
+    }
+
+    p,
+    .command {
+      margin-top: 25px;
+      text-align: center;
+    }
+
+    p:nth-child(1),
+    p:nth-child(3) {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    p:nth-child(2) {
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    .command {
+      padding: 10px;
+      background-color: rgb(199, 131, 5);
+      width: 250px;
+      margin: 25px auto;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { Navbar, Hero, Tech } from "./components/index.js";
+import { Navbar, Hero, Tech, How } from "./components/index.js";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/tech" element={<Tech />} />
+        <Route path="/how-it-works" element={<How />} />
       </Routes>
     </div>
   );

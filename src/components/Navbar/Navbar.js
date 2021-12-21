@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar-container">
-      <h1>Reactify</h1>
+      <h1>Reacticious</h1>
       <nav>
         <NavLink
           className={(navData) =>
@@ -22,8 +22,8 @@ const Navbar = () => {
         >
           tech
         </NavLink>
-        <NavLink to="/hellos" className="nav-link">
-          contact
+        <NavLink to="/how-it-works" className="nav-link">
+          how it works
         </NavLink>
       </nav>
     </div>

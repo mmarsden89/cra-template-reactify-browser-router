@@ -2,6 +2,7 @@
   margin-top: 15px;
   position: absolute;
   width: 100vw;
+  z-index: 10;
 
   // flex
   align-items: flex-end;
@@ -32,7 +33,7 @@
     }
 
     .active {
-      color: black;
+      color: orange;
       font-weight: 700;
     }
   }
