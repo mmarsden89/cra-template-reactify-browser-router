@@ -25,15 +25,18 @@
     position: absolute;
     right: 25px;
     text-align: right;
-    top: 51%;
+    top: 50%;
     width: 100vw;
 
     h2 {
       font-size: 2vw;
+      position: absolute;
+      width: 50%;
+      right: 25px;
     }
 
     .tech-list {
-      margin-top: 5%;
+      margin-top: 8%;
       text-align: right;
       white-space: nowrap;
 
