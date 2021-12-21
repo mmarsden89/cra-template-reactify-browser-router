@@ -9,33 +9,34 @@
     width: 100%;
   }
 
-  h1 {
-    color: white;
-    font-size: 50px;
-    font-size: 3.75vw;
-    margin-right: 25px;
+  .text {
+    background-color: rgba(15, 15, 15, 0.5);
+    bottom: 5%;
+    padding: 0.5vw 1.75vw;
     position: absolute;
     right: 0;
-    top: 82.5%;
-  }
+    text-align: right;
 
-  .subtext {
-    margin-right: 25px;
-    position: absolute;
-    right: 0;
-    top: 91%;
-    white-space: nowrap;
-
-    p {
+    h1 {
       color: white;
-      font-size: 25px;
-      font-size: 2vw;
-      font-weight: 500;
+      font-size: 50px;
+      font-size: 3.75vw;
     }
 
-    a {
-      color: blue;
-      text-decoration: none;
+    .subtext {
+      white-space: nowrap;
+
+      p {
+        color: white;
+        font-size: 25px;
+        font-size: 2vw;
+        font-weight: 500;
+      }
+
+      a {
+        color: blue;
+        text-decoration: none;
+      }
     }
   }
 }
