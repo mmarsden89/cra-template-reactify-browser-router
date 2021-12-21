@@ -17,39 +17,41 @@
     width: 40vw;
 
     h1 {
-      margin: 25px 0 0 25px;
+      margin: 5% 0 0 5%;
+      font-size: 2.35vw;
     }
 
     .how-text {
-      font-size: 20px !important;
+      font-size: 1.4vw !important;
       font-weight: 300 !important;
       letter-spacing: 1px;
-      margin-top: 50px;
-      padding: 0 35px;
+      margin-top: 10%;
+      padding: 0 7%;
     }
 
     p,
     .command {
-      margin-top: 25px;
+      margin-top: 5%;
       text-align: center;
     }
 
     p:nth-child(1),
     p:nth-child(3) {
-      font-size: 20px;
+      font-size: 1.4vw;
       font-weight: 500;
     }
 
     p:nth-child(2) {
-      font-size: 25px;
+      font-size: 1.75vw;
       font-weight: 700;
     }
 
     .command {
       background-color: rgb(199, 131, 5);
-      margin: 25px auto;
+      font-size: 1.25vw;
+      margin: 5% auto;
       padding: 10px;
-      width: 250px;
+      width: 50%;
     }
   }
 }

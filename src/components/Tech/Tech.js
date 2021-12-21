@@ -4,8 +4,6 @@ import techLibrary from "../../../package.json";
 const Tech = () => {
   const libraryMap = Object.keys(techLibrary.dependencies);
 
-  console.log(libraryMap);
-
   const libraryHTML = libraryMap.map((itm) => <div>{itm}</div>);
 
   return (
