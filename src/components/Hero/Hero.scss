@@ -1,3 +1,5 @@
+@import "../../styles/colors";
+
 .hero-container {
   height: 100vh;
   overflow: hidden;
@@ -10,7 +12,7 @@
   }
 
   .text {
-    background-color: rgba(15, 15, 15, 0.5);
+    background-color: $textBorder;
     bottom: 5%;
     padding: 0.5vw 1.75vw;
     position: absolute;
@@ -18,7 +20,7 @@
     text-align: right;
 
     h1 {
-      color: white;
+      color: $white;
       font-size: 50px;
       font-size: 3.75vw;
     }
@@ -27,14 +29,15 @@
       white-space: nowrap;
 
       p {
-        color: white;
+        color: $white;
         font-size: 25px;
         font-size: 2vw;
         font-weight: 500;
       }
 
       a {
-        color: blue;
+        color: $extLink;
+        font-weight: 600;
         text-decoration: none;
       }
     }
