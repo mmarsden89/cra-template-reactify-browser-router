@@ -21,7 +21,6 @@
 
     h1 {
       color: $white;
-      font-size: 50px;
       font-size: 3.75vw;
     }
 
@@ -30,7 +29,6 @@
 
       p {
         color: $white;
-        font-size: 25px;
         font-size: 2vw;
         font-weight: 500;
       }
@@ -39,6 +37,33 @@
         color: $extLink;
         font-weight: 600;
         text-decoration: none;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .hero-image {
+      margin-top: 100%;
+      object-fit: cover;
+      transform: scale(5);
+    }
+
+    .text {
+      h1 {
+        font-size: 15vw;
+      }
+
+      .subtext {
+        right: 0;
+        white-space: pre-wrap;
+
+        p {
+          font-size: 6vw;
+        }
+
+        p:nth-child(1) {
+          margin: 10px 0;
+        }
       }
     }
   }

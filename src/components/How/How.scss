@@ -4,6 +4,7 @@
   height: 100vh;
   overflow: hidden;
   width: 100vw;
+  -webkit-user-select: none;
 
   .how-background {
     margin-top: -25px;
@@ -54,6 +55,49 @@
       margin: 5% auto;
       padding: 10px;
       width: 50%;
+      -webkit-user-select: text;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .how-background {
+      margin-left: -200%;
+      margin-top: 80%;
+      transform: scale(5);
+    }
+
+    .box {
+      height: 75%;
+      width: 80%;
+
+      h1 {
+        font-size: 8vw;
+        margin: 50px 0 0 0;
+        text-align: center;
+      }
+
+      .how-text {
+        margin-top: 50px;
+        font-size: 5.5vw !important;
+      }
+
+      p:nth-child(1),
+      p:nth-child(3) {
+        margin-top: 20px;
+        font-size: 5.5vw;
+        padding: 0 50px;
+      }
+
+      p:nth-child(2) {
+        margin-top: 10px;
+        font-size: 8vw;
+      }
+
+      .command {
+        font-size: 4vw;
+        margin-top: 40px;
+        width: 75%;
+      }
     }
   }
 }

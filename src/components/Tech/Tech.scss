@@ -52,4 +52,47 @@
       }
     }
   }
+
+  @media only screen and (max-width: 425px) {
+    svg {
+      height: 100vh;
+    }
+
+    h1 {
+      color: $teal;
+      font-size: 5.5vw;
+      left: 0;
+      right: 0;
+      text-align: center;
+      top: 25vh;
+    }
+
+    .tech-info {
+      right: 0;
+      left: 0;
+      text-align: center;
+      top: 35vh;
+
+      h2 {
+        font-size: 4vw;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        text-align: center;
+        width: 80%;
+      }
+
+      .tech-list {
+        grid-template-columns: 100%;
+        row-gap: 10px;
+        padding: 0 20px;
+        margin-top: 20%;
+        text-align: left;
+
+        div {
+          font-size: 4vw;
+        }
+      }
+    }
+  }
 }
